@@ -1,0 +1,25 @@
+body {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cv {
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-cv {
+    color: white;
+    background-color:rgb(5, 5, 145);
+    height: 30%;
+}
+
+#description {
+    display:flex;
+    
+}
