@@ -1,0 +1,116 @@
+body {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cv {
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-cv {
+    color: white;
+    background-color:rgb(4, 4, 82);
+    height: 30%;
+}
+
+#title-cv h1{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title-cv h2 {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    display:flex;
+}
+
+.experience {
+    margin-left: 30px;
+    border-right: 1px solid black;
+    width: 60%;
+}
+
+.experience p {
+    width:85%;
+}
+
+#Info {
+    margin-left:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#Info h1{
+    text-align: center;
+}
+
+
+#skills h1{
+    text-align: center;
+}
+
+#Education h1 {
+    text-align: center;
+    margin-left: 15px;
+}
+
+#Education ul {
+    list-style: none;
+}
+
+#Education ul li {
+    margin-top: 15px;
+}
+
+.Info-option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.Info-option i{
+    margin-right: 5px;
+}
+
+#Info-opt {
+    width: 100%;
+}
+
+#email {
+    color: red;
+}
+
+#github {
+    color: rgb(27, 27, 27)
+}
+
+#address {
+    color: greenyellow;
+}
+
+#linkedin{
+    color: rgb(0, 0, 114)
+}
+
+.skill {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px
+}
+
+.skill p {
+    margin-right: 5px;
+}
